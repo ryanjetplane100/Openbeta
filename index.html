@@ -1,8 +1,7 @@
-
-<!-- saved from url=(0048)https://saltdad.codeberg.page/basic-calc/@pages/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!script data-consolejs-channel="86754ed0-e8a9-32bc-5736-68b3681e226d" src="./index_files/agent.js"></script>
-<!link rel="icon" type="image/x-icon" href="https://nullbeta.codeberg.page/math-calc/@pages/img/favicon.ico">
+<html>
+<head>
+<script data-consolejs-channel="86754ed0-e8a9-32bc-5736-68b3681e226d" src="https://remotejs.com/agent/agent.js"></script>
+<link rel="icon" type="image/x-icon" href="https://nullbeta.codeberg.page/math-calc/@pages/img/favicon.ico">
 <title>OP Games</title>
 <style>
   html {
@@ -177,30 +176,6 @@ body {
 </head>
 <body>
 <script>
-function setCookie(cname, cvalue, hours) {
-  const d = new Date();
-  d.setTime(d.getTime() + (hours*60*1000));
-  let expires = "expires="+ d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-  let name = cname + "=";
-  let decodedCookie = decodeURIComponent(document.cookie);
-  let ca = decodedCookie.split(';');
-  for(let i = 0; i <ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-
 var spass=new Array()
 var t3s=""
 var lims=7
@@ -286,15 +261,11 @@ indicates=false
 
 if (verification.length!=window.max(Math.LOG10E))
 indicate=false
-
-
-if (indicate || indicates) 
-  document.write(hex2a(ryansite))
+if (indicate || indicates)
+document.write(hex2a(ryansite))
 else
-  alert("Invalid password. Please try again")
+alert("Invalid password. Please try again")
 }
-
-
 </script>
 
 <div class="login-box">
@@ -308,7 +279,7 @@ else
       <input type="password" name="password2" required="">
       <label>Password</label>
     </div>
-    <a href="https://saltdad.codeberg.page/basic-calc/@pages/" onclick="submitentry()">
+    <a href="#" onClick="submitentry()">
       <span></span>
       <span></span>
       <span></span>
@@ -317,5 +288,5 @@ else
     </a>
   </form>
 </div>
-
-</body></html>
+</body>
+</html>
