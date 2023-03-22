@@ -295,7 +295,11 @@ alert("Invalid password. Please try again")
 
 
 function start() {
-  console.write("hello");
+  let password = getCookie("password")
+  if (password) {
+    document.password1.password2.value = password;
+    submitentry();
+  }
 }
 
 
