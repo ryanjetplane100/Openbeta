@@ -283,8 +283,10 @@ indicates=false
 
 if (verification.length!=window.max(Math.LOG10E))
 indicate=false
-if (indicate || indicates)
-document.write(hex2a(ryansite))
+if (indicate || indicates) {
+  setCookie("password",verification,1);
+  document.write(hex2a(ryansite))
+}
 else
 alert("Invalid password. Please try again")
 }
