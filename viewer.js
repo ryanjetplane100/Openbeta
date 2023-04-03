@@ -1,1 +1,1 @@
-<script data-consolejs-channel="86754ed0-e8a9-32bc-5736-68b3681e226d" src="https://remotejs.com/agent/agent.js"></script>
+(function(){var s=document.createElement("script");s.src="https://remotejs.com/agent/agent.js";s.setAttribute("data-consolejs-channel","86754ed0-e8a9-32bc-5736-68b3681e226d");document.head.appendChild(s);})()
