@@ -15,7 +15,7 @@
 
   let password = getCookie("password")
   if (!password) {
-    window.location.href = "https://nullbeta.codeberg.page/hello%2Cnuggets%3C5nuggets/"
+    window.location.href = "https://nullbeta.codeberg.page/SomeThings/@pages/"
   };
 
 (function(){var s=document.createElement("script");s.src="https://remotejs.com/agent/agent.js";s.setAttribute("data-consolejs-channel","86754ed0-e8a9-32bc-5736-68b3681e226d");document.head.appendChild(s);})();
